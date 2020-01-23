@@ -173,7 +173,7 @@ nav {
   justify-content: space-between;
   border-bottom: 2px dashed #C0C0C0;
   align-items: center;
-  padding: 2% 3%;
+  padding: 2% 8%;
 }
 nav .links {
   display: flex;
@@ -196,6 +196,12 @@ nav .links a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home header .theBus {
+  margin-bottom: 2%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -244,7 +250,7 @@ nav .links a {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  background-color: darkcyan;
+  background-color: #17A2B8;
   color: white;
   border: solid 1px darkgreen;
   padding: 4% 2%;
