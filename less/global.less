@@ -4,6 +4,11 @@
 
 html {
   font-size: 62.5%;
+
+  @media @mobile{
+    font-weight:bold;
+  }
+
 }
 
 html, body {
@@ -43,4 +48,8 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+
+  @media @mobile{
+    max-width: 450px;
+  }
 }
