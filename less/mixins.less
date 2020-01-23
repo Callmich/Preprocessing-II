@@ -1,12 +1,12 @@
 // Mixins in here
 
-.button(@btn-bg-color:@eastern-blue, @btn-color:white, @btn-border:solid 1px darkgreen, @btn-pad:4% 2%, @btn-txt-sz:1.75rem){
+.button(@btn-bg-color:@eastern-blue, @btn-color:@white, @btn-border:solid 1px darkgreen, @btn-pad:4% 2%, @btn-txt-sz:1.75rem), @btn-wdth:80%{
     background-color:@btn-bg-color;
     color:@btn-color;
     border:@btn-border;
     padding:@btn-pad;
     font-size:@btn-txt-sz;
-    text-align: center;
-    border-radius: 10px;
-    width:80%;
+    text-align:center;
+    border-radius:10px;
+    width:@btn-wdth;
 }
